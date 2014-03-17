@@ -5,7 +5,7 @@ SlidingCardUIView
 
 UI for iOS similar to Jelly app http://jelly.co/
 
-![Screenshot](http://github.com/stenio123/SlidingCardUIView/raw/master/SlidingCardUIView/screen.gif)
+![Screenshot](https://github.com/stenio123/SlidingCardsUIView/raw/master/SlidingCardsUIView/screen.gif)
 
 SlidingCardUIView allows you to create an array of several views (like information cards), and give to SlidingCardUIView. This class will add a gesture recognizer that allows users to drag the view down to make it disappear, and having the next view in the array pop up into the front. 
 
