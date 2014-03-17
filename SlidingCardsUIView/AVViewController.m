@@ -8,7 +8,10 @@
 
 #import "AVViewController.h"
 
-@interface AVViewController ()
+@interface AVViewController () {
+    
+    SlidingCardsUIView *slidingCardsUIView;
+}
 
 @end
 
@@ -17,7 +20,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	slidingCardsUIView = [[SlidingCardsUIView alloc] init];
+    //you can either pass "nil" for an example, or an array of views you created programmatically
+    [slidingCardsUIView showViewsFromArray:nil forViewController:self];
+
 }
 
 - (void)didReceiveMemoryWarning

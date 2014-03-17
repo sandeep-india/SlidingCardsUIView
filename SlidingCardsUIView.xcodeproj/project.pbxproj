@@ -21,6 +21,9 @@
 		4198B2F918D736E500703391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4198B2DB18D736E500703391 /* UIKit.framework */; };
 		4198B30118D736E600703391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4198B2FF18D736E600703391 /* InfoPlist.strings */; };
 		4198B30318D736E600703391 /* SlidingCardsUIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198B30218D736E600703391 /* SlidingCardsUIViewTests.m */; };
+		4198B30E18D7370500703391 /* SlidingCardsUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4198B30D18D7370500703391 /* SlidingCardsUIView.m */; };
+		4198B31118D7372D00703391 /* screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4198B30F18D7372D00703391 /* screen.gif */; };
+		4198B31218D7372D00703391 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4198B31018D7372D00703391 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		4198B2FE18D736E500703391 /* SlidingCardsUIViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlidingCardsUIViewTests-Info.plist"; sourceTree = "<group>"; };
 		4198B30018D736E600703391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4198B30218D736E600703391 /* SlidingCardsUIViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingCardsUIViewTests.m; sourceTree = "<group>"; };
+		4198B30C18D7370500703391 /* SlidingCardsUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingCardsUIView.h; sourceTree = "<group>"; };
+		4198B30D18D7370500703391 /* SlidingCardsUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingCardsUIView.m; sourceTree = "<group>"; };
+		4198B30F18D7372D00703391 /* screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screen.gif; sourceTree = "<group>"; };
+		4198B31018D7372D00703391 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,8 @@
 				4198B2E918D736E500703391 /* Main.storyboard */,
 				4198B2EC18D736E500703391 /* AVViewController.h */,
 				4198B2ED18D736E500703391 /* AVViewController.m */,
+				4198B30C18D7370500703391 /* SlidingCardsUIView.h */,
+				4198B30D18D7370500703391 /* SlidingCardsUIView.m */,
 				4198B2EF18D736E500703391 /* Images.xcassets */,
 				4198B2DE18D736E500703391 /* Supporting Files */,
 			);
@@ -126,6 +135,8 @@
 		4198B2DE18D736E500703391 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4198B30F18D7372D00703391 /* screen.gif */,
+				4198B31018D7372D00703391 /* README.md */,
 				4198B2DF18D736E500703391 /* SlidingCardsUIView-Info.plist */,
 				4198B2E018D736E500703391 /* InfoPlist.strings */,
 				4198B2E318D736E500703391 /* main.m */,
@@ -231,6 +242,8 @@
 			files = (
 				4198B2F018D736E500703391 /* Images.xcassets in Resources */,
 				4198B2E218D736E500703391 /* InfoPlist.strings in Resources */,
+				4198B31218D7372D00703391 /* README.md in Resources */,
+				4198B31118D7372D00703391 /* screen.gif in Resources */,
 				4198B2EB18D736E500703391 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +266,7 @@
 				4198B2E418D736E500703391 /* main.m in Sources */,
 				4198B2EE18D736E500703391 /* AVViewController.m in Sources */,
 				4198B2E818D736E500703391 /* AVAppDelegate.m in Sources */,
+				4198B30E18D7370500703391 /* SlidingCardsUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
